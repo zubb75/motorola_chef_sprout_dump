@@ -1,0 +1,25 @@
+BUILD REQUEST INFO:
+SW Version: chef-user 9 PPTS29.74-41-5-2 5bf8c9 release-keysM636_28.48.01.94R
+MBM Version: MBM-3.0-chef_retail-7e6e70e-190625
+Modem Version: M636_28.48.01.94R
+FSG Version: FSG-660-08.29
+Build Fingerprint: motorola/chef/chef_sprout:9/PPTS29.74-41-5-2/5bf8c9:user/release-keys
+CQATest App Version: 6.0.4
+
+VERSION INFO FOUND UNDER 'ABOUT PHONE' SCREEN:
+System Version: 29.311.2.chef.retail.en.US
+Model Number: motorola one power
+Android Version: 9
+Baseband Version: M636_28.48.01.94R
+Build Id: PPTS29.74-41-5-2
+SW Display Build ID: PPTS29.74-41-5-2
+Build Date: Tue Jun 25 09:39:54 CDT 2019
+
+OTHER MISC VERSION INFO:
+Subsidy Lock Config: slcf_rev_d_default_v1.0.nvm
+Regulatory Info (eLabel): regulatory_info_default.png
+Blur Version: Blur_Version.29.311.2.chef.retail.en.US
+Version when read from CPV: chef-user 9 PPTS29.74-41-5-2 5bf8c9 release-keys
+
+AB Update Enabled: True
+Full Treble Enabled: True

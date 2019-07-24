@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<flashing>
+  <header>
+    <phone_model model="chef"/>
+    <software_version version="chef-user 9 PPTS29.74-41-4 98ca3 release-keysM636_19.34.01.82.03R"/>
+    <sparsing enabled="true" max-sparse-size="536870912"/>
+    <interfaces>
+      <interface name="AP"/>
+    </interfaces>
+  </header>
+  <steps interface="AP">
+    <step operation="getvar" var="max-sparse-size"/>
+    <step operation="oem" var="fb_mode_set"/>
+    <step MD5="ade1f5414797ca6c141b5b5823d3be20" filename="gpt.bin" operation="flash" partition="partition"/>
+    <step MD5="c44459dba8c549e3b394126bb9d5ce90" filename="bootloader.img" operation="flash" partition="bootloader"/>
+    <step MD5="fc0ab669cef2c66026756e0b894e08cf" filename="NON-HLOS.bin" operation="flash" partition="modem"/>
+    <step MD5="0ae8573c8d1a823ee284b32310829d94" filename="fsg.mbn" operation="flash" partition="fsg"/>
+    <step operation="erase" partition="modemst1"/>
+    <step operation="erase" partition="modemst2"/>
+    <step MD5="f9f563feee34dfc68da80f5d7c60ab29" filename="BTFM.bin" operation="flash" partition="bluetooth"/>
+    <step MD5="89d01a5220c1664749edce961a158142" filename="dspso.bin" operation="flash" partition="dsp"/>
+    <step MD5="b8e9f19944e2496515715529d6e5c564" filename="logo.bin" operation="flash" partition="logo"/>
+    <step MD5="0b772104b81d46ac8ae7a7d28991cc30" filename="boot.img" operation="flash" partition="boot"/>
+    <step MD5="0db33a2f67ec32769286e49b46c2b33c" filename="system.img_sparsechunk.0" operation="flash" partition="system"/>
+    <step MD5="ecdc1bac7b869085d824c08dcb84350a" filename="system.img_sparsechunk.1" operation="flash" partition="system"/>
+    <step MD5="d2ff829dc6a25fc460ceccd9e1b3790a" filename="system.img_sparsechunk.2" operation="flash" partition="system"/>
+    <step MD5="d184e03f56286662744efd6014832e21" filename="system.img_sparsechunk.3" operation="flash" partition="system"/>
+    <step MD5="43a1e9b9b4233c1255c865ad3809898a" filename="system.img_sparsechunk.4" operation="flash" partition="system"/>
+    <step MD5="36e5495997405e9ab981a48fd7462d3c" filename="system_other.img" operation="flash" partition="system_b"/>
+    <step MD5="6a0ab921f3eaf7f7466b7f74658894c7" filename="vendor.img" operation="flash" partition="vendor"/>
+    <step MD5="04258f64c2eb5453a1d4573c4b1b3724" filename="oem.img" operation="flash" partition="oem"/>
+    <step operation="erase" partition="carrier"/>
+    <step operation="erase" partition="ddr"/>
+    <step operation="oem" var="fb_mode_clear"/>
+  </steps>
+</flashing>

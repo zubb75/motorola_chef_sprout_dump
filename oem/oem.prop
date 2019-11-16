@@ -1,0 +1,11 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=914c1
+ro.build.version.ci=13
+ro.mot.build.guid=5b95e86ba4efdbc
+ro.mot.base_buildid=PPT29.74-41-5/301ff
+ro.product.name=chef
+ro.mot.build.oem.product=chef
+ro.mot.build.customerid=retail
+ro.product.device=chef_sprout

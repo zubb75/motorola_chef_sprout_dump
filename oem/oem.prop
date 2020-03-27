@@ -1,0 +1,13 @@
+#
+# OEM_BUILD_PROPERTIES
+#
+ro.build.version.incremental=7dcb5
+ro.build.version.ci=4
+ro.mot.build.guid=929a4ccfe0d858c
+ro.mot.base_buildid=QPT30.61-18/18a03
+ro.product.name=chef
+ro.product.system.name=chef
+ro.product.product.name=chef
+ro.mot.build.oem.product=chef
+ro.mot.build.customerid=retail
+ro.product.device=chef_sprout
